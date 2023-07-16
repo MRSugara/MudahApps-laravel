@@ -1,0 +1,62 @@
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.navbar {
+    background-color: antiquewhite;
+}
+
+.iklan {
+    background-color: grey;
+}
+
+.image-iklan {
+    width: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.image {
+    height: 50px;
+    display: inline-block;
+}
+
+.judul {
+    width: 40px;
+}
+
+.item {
+    width: fit-content;
+    margin: 3px;
+}
+
+.link-item {
+    background-color: antiquewhite;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    border-radius: 5px;
+}
+
+.note {
+    padding-left: 10px;
+    padding-right: 5px;
+    line-height: 50px;
+    height: 50px;
+}
+
+.input-cari {
+    border-radius: 5px;
+    border-color: aliceblue;
+    box-shadow: none;
+}
+
+.button-cari {
+    border-radius: 5px;
+    border-color: aliceblue;
+    box-shadow: none;
+}
